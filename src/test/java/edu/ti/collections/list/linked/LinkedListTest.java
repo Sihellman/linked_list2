@@ -63,7 +63,7 @@ public class LinkedListTest {
         Integer j37 = new Integer(37);
         LinkedList linkedList = new LinkedList(i12);
         linkedList.append(j37);
-        Integer first = (Integer) linkedList.get(0);
+        Integer first =  (Integer)linkedList.get(0);
         assertEquals(i12, first);
         Integer second = (Integer) linkedList.get(1);
         assertEquals(j37, second);
